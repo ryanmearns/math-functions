@@ -1,5 +1,5 @@
 {
-  "name": "@ryanmearns/math",
+  "name": "math-functions",
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
