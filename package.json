@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "release": "pnpm run build && changeset publish"
   },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
