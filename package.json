@@ -1,19 +1,17 @@
 {
-  "name": "math",
-  "version": "1.0.0",
-  "description": "A simple sdk with math functions",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "dependencies": {
+  "name": "@ryanmearns/math",
+  "version": "0.0.1",
+  "license": "MIT",
+  "devDependencies": {
     "@changesets/cli": "^2.27.7",
     "tsup": "^8.2.3",
-    "typescript": "^5.5.4",
-    "vitest": "^2.0.4"
+    "typescript": "^5.5.4"
   },
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "tsc",
-    "release": "pnpm run build && changeset publish"
-  }
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts"
 }
