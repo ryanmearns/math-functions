@@ -1,6 +1,6 @@
 {
   "name": "@ryanmearns/math",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.7",
